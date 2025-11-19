@@ -1,0 +1,49 @@
+.appointment-management {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .appointment-form {
+    margin-top: 1.5rem;
+  }
+  
+  .notes-cell {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  .status-scheduled {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .status-completed {
+    background: #cce5ff;
+    color: #004085;
+  }
+  
+  .status-cancelled {
+    background: #f8d7da;
+    color: #721c24;
+  }
+  
+  .status-no-show {
+    background: #fff3cd;
+    color: #856404;
+  }
+  
+  @media (max-width: 768px) {
+    .notes-cell {
+      max-width: 150px;
+    }
+  }
